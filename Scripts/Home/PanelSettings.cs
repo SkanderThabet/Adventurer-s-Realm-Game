@@ -18,8 +18,7 @@ namespace FantasyRPG
 
         void Start()
         {
-            transform.localScale = Vector3.zero;
-            transform.DOScale(0.8f, 0.2f).SetEase(Ease.OutBack);
+            
         }
         
         void Update()

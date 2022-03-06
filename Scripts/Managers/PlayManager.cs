@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.SceneManagement;
 
 namespace FantasyRPG
 {
@@ -28,8 +28,6 @@ namespace FantasyRPG
             if (isLoadScene) return;
             isLoadScene = true;
             IsTouch = false;
-
-
 
             StartCoroutine(LoadSceneCo(sceneName));
         }

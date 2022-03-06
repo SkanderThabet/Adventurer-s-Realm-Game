@@ -38,7 +38,7 @@ public class AppManager : MonoBehaviour
     public UnityEvent  onLoginCallback;
     public GameObject connectButton;
     public TextMeshProUGUI walletAddress;
-    public Text infoText;
+    public TextMeshProUGUI infoText;
 
     #endregion
 
@@ -105,11 +105,13 @@ public class AppManager : MonoBehaviour
 
         // Attempt to login user.
         MoralisUser user = await MoralisInterface.LogInAsync(authData);
-
         if (user != null)
         {
             Debug.Log($"User {user.username} logged in successfully. ");
             infoText.text = "Logged in successfully!";
+            //walletAddress.text=user.ethAddress;
+            walletAddress.text = user.username;
+
         }
         else
         {
@@ -163,7 +165,10 @@ public class AppManager : MonoBehaviour
         Debug.Log("Connected to wallet ");
         connectButton.SetActive(false);
         infoText.text = "Connection successful. Please sign message";
+       
         onLoginCallback?.Invoke();
+      
+       
 
 
     }

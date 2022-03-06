@@ -12,9 +12,9 @@ public class MusicControlScript : MonoBehaviour
         if (!PlayerPrefs.HasKey("musicVolume"))
         {
             PlayerPrefs.SetFloat("MusicVolume",1);
-            Load();
+           // Load();
         }
-        else Load();
+      //  else Load();
 
     }
     public void ChangeVolume()
@@ -22,10 +22,10 @@ public class MusicControlScript : MonoBehaviour
         AudioListener.volume = volumeSlider.value; 
         Save();
     }
-    void Load()
+   /* void Load()
     {
         volumeSlider.value= PlayerPrefs.GetFloat("musicVolume");
-    }
+    }*/
 
     void Save()
     {

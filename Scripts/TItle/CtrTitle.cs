@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 namespace FantasyRPG
 {
@@ -94,7 +95,7 @@ namespace FantasyRPG
             buttonStart.DOFade(0f, 0f);
             buttonStart.DOFade(1f, 0.2f).SetEase(Ease.Linear).SetLoops(6, LoopType.Yoyo).OnComplete(() =>
             {
-                PlayManager.Instance.LoadScene(Data.scene_home);
+                SceneManager.LoadScene(Data.scene_home, LoadSceneMode.Single);
             });
         }
     }
