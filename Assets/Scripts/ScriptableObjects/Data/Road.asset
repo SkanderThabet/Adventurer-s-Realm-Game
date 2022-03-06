@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06c94e3104c05b488048cefb9e21731, type: 3}
+  m_Name: Road
+  m_EditorClassIdentifier: 
+  income: 0
+  buildingName: Road
+  buildingImage: {fileID: 21300000, guid: d9b6b3e5f6d95e844a375d6f30919b66, type: 3}
+  prefab: {fileID: 100000, guid: 6d53ac9a81f80b6449e442c4c8bf8a1b, type: 3}
+  placementCost: 20
+  requiredWoodAmount: 0
+  requiredSteelAmount: 0
+  upkeepCost: 5
+  requireRoadAccess: 0
+  requirePower: 0
+  requireWater: 0
+  requireSilo: 0
+  requireHealthcare: 0
+  requireLawEnforcement: 0
+  requireFireProtection: 0
+  requirePostalService: 0
+  requireBankService: 0
+  requireGarbageService: 0
+  requireEducationSerivce: 0
+  upgradable: 0
+  fullyUpgraded: 0
+  upgradeLevelPrefabs: []
+  upgradePlacementCost: 
+  upgradeIncome: 
+  upgradeRequiredWoodAmount: 
+  upgradeRequiredSteelAmount: 
+  upgradeLevel: 0
+  structureRange: 1
+  maxFacilitySearchRange: 0
+  cornerPrefab: {fileID: 8844013322122185506, guid: b3bf4733577630c4ab64cb9cfaaf5bd5,
+    type: 3}
+  threeWayPrefab: {fileID: 4730560012720588634, guid: d409ae9d86ce93f4ebe501a20052ba8b,
+    type: 3}
+  fourWayPrefab: {fileID: 4988593472733303505, guid: 5eafd473e55dbc042ba2959344fea2cd,
+    type: 3}
+  prefabRotation: 0

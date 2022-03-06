@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7729659233332718103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7729659233332718105}
+  - component: {fileID: 7729659233332718104}
+  m_Layer: 0
+  m_Name: UIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7729659233332718105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729659233332718103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 98.80005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7729659233332718104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7729659233332718103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e077d37143f5eee47a7a506c0a29ba22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structureRepository: {fileID: 0}
+  buildResidentialAreaBtn: {fileID: 0}
+  cancelActionBtn: {fileID: 0}
+  confirmActionBtn: {fileID: 0}
+  cancelActionPanel: {fileID: 0}
+  mainBuildPanel: {fileID: 0}
+  buildingMenuPanel: {fileID: 0}
+  openBuildingMenuBtn: {fileID: 0}
+  removeBtn: {fileID: 0}
+  upgradeBtn: {fileID: 0}
+  selectMenuInfoPanel: {fileID: 0}
+  openSelectMenuInfoBtn: {fileID: 0}
+  closeSelectMenuInfoBtn: {fileID: 0}
+  selectHelpInfoPanel: {fileID: 0}
+  openSelectHelpInfoBtn: {fileID: 0}
+  selectControlsInfoPanel: {fileID: 0}
+  openSelectControlsInfoBtn: {fileID: 0}
+  selectQuitInfoPanel: {fileID: 0}
+  openSelectQuitInfoBtn: {fileID: 0}
+  quitGameBtn: {fileID: 0}
+  closeQuitInfoBtn: {fileID: 0}
+  zonesPanel: {fileID: 0}
+  facilitiesPanel: {fileID: 0}
+  manufacturersPanel: {fileID: 0}
+  roadsPanel: {fileID: 0}
+  closeBuildMenuBtn: {fileID: 0}
+  residentialSelectMenuPanel: {fileID: 0}
+  commercialStoreSelectMenuPanel: {fileID: 0}
+  commercialBusinessSelectMenuPanel: {fileID: 0}
+  agricultureSelectMenuPanel: {fileID: 0}
+  entertainmentSelectMenuPanel: {fileID: 0}
+  parkSelectMenuPanel: {fileID: 0}
+  restaurantSelectMenuPanel: {fileID: 0}
+  utilitiesSelectMenuPanel: {fileID: 0}
+  emergencySelectMenuPanel: {fileID: 0}
+  governmentSelectMenuPanel: {fileID: 0}
+  manufactureSelectMenuPanel: {fileID: 0}
+  roadSelectMenuPanel: {fileID: 0}
+  residentialOpenMenuBtn: {fileID: 0}
+  commercialStoreOpenMenuBtn: {fileID: 0}
+  commercialBusinessOpenMenuBtn: {fileID: 0}
+  agricultureOpenMenuBtn: {fileID: 0}
+  entertainmentOpenMenuBtn: {fileID: 0}
+  parkOpenMenuBtn: {fileID: 0}
+  restaurantOpenMenuBtn: {fileID: 0}
+  utilitiesOpenMenuBtn: {fileID: 0}
+  emergencyOpenMenuBtn: {fileID: 0}
+  governmentOpenMenuBtn: {fileID: 0}
+  manufactureOpenMenuBtn: {fileID: 0}
+  roadOpenMenuBtn: {fileID: 0}
+  buildButtonPrefab: {fileID: 887964655198250043, guid: e124772d9a861464d9b127a204043749,
+    type: 3}
+  buildPanelPrefab: {fileID: 0}
+  moneyPanel: {fileID: 0}
+  moneyValue: {fileID: 0}
+  shoppingCartPanel: {fileID: 0}
+  shoppingCartMoneyValue: {fileID: 0}
+  shoppingCartWoodValue: {fileID: 0}
+  shoppingCartSteelValue: {fileID: 0}
+  populationPanel: {fileID: 0}
+  populationValue: {fileID: 0}
+  woodMaterialPanel: {fileID: 0}
+  woodMaterialValue: {fileID: 0}
+  steelMaterialPanel: {fileID: 0}
+  steelMaterialValue: {fileID: 0}
+  insufficientFundsPanel: {fileID: 0}
+  insufficientFundsMoneyPanel: {fileID: 0}
+  insufficientFundsMoneyValue: {fileID: 0}
+  insufficientFundsMoneyShoppingCartValue: {fileID: 0}
+  insufficientFundsWoodPanel: {fileID: 0}
+  insufficientFundsWoodValue: {fileID: 0}
+  insufficientFundsWoodShoppingCartValue: {fileID: 0}
+  insufficientFundsSteelPanel: {fileID: 0}
+  insufficientFundsSteelValue: {fileID: 0}
+  insufficientFundsSteelShoppingCartValue: {fileID: 0}
+  closeInsufficientFundsBtn: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  woodMaterialGameOver: {fileID: 0}
+  steelMaterialGameOver: {fileID: 0}
+  currencyAmountGameOver: {fileID: 0}
+  replayGameBtn: {fileID: 0}
+  fadePanel: {fileID: 0}
+  structureInfoPanelHelper: {fileID: 0}

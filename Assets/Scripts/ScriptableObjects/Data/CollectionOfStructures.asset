@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb967017fbeb4e2489f8a1e402d4ec30, type: 3}
+  m_Name: CollectionOfStructures
+  m_EditorClassIdentifier: 
+  roadStructure: {fileID: 11400000, guid: 83fb5b9fb38d930458c12f7a5f1cfbd0, type: 2}
+  singleStructures:
+  - {fileID: 11400000, guid: 02b0394423bfd5b46833a18e4fdbd588, type: 2}
+  - {fileID: 11400000, guid: fb21ccef14f2c854e809704a43378235, type: 2}
+  - {fileID: 11400000, guid: e01d12f1ac42b7f4cb4ef4ab5f19ae4f, type: 2}
+  - {fileID: 11400000, guid: 62a0e3bdc5e104048bbb900855f87df7, type: 2}
+  zoneStructures:
+  - {fileID: 11400000, guid: 611a6f58152d09747a917ed4591bd254, type: 2}
+  - {fileID: 11400000, guid: 81c37c1614e23284a8ebf9784ec18575, type: 2}
+  - {fileID: 11400000, guid: c1fc2841666a34f4fb5bb20a22ebcfae, type: 2}
+  - {fileID: 11400000, guid: 8d050f9a2caed2248bf6c59540f83af1, type: 2}
+  - {fileID: 11400000, guid: 3f0954f1acffdb541a12fa9c40dbae98, type: 2}
+  - {fileID: 11400000, guid: 57a0d219b14478140b2b521236e73c83, type: 2}
+  - {fileID: 11400000, guid: be3ced4b0615a31499f57bbfa259145b, type: 2}
+  residentialStructures:
+  - {fileID: 11400000, guid: 611a6f58152d09747a917ed4591bd254, type: 2}
+  - {fileID: 11400000, guid: 81c37c1614e23284a8ebf9784ec18575, type: 2}
+  commercialStoreStructures:
+  - {fileID: 11400000, guid: 8d050f9a2caed2248bf6c59540f83af1, type: 2}
+  parkStructures:
+  - {fileID: 11400000, guid: 3f0954f1acffdb541a12fa9c40dbae98, type: 2}
+  - {fileID: 11400000, guid: 57a0d219b14478140b2b521236e73c83, type: 2}
+  utilitiesStructures:
+  - {fileID: 11400000, guid: 02b0394423bfd5b46833a18e4fdbd588, type: 2}
+  - {fileID: 11400000, guid: fb21ccef14f2c854e809704a43378235, type: 2}
+  emergencyStructures:
+  - {fileID: 11400000, guid: e01d12f1ac42b7f4cb4ef4ab5f19ae4f, type: 2}
+  guildStructures:
+  - {fileID: 11400000, guid: 611a6f58152d09747a917ed4591bd254, type: 2}
+  roadStructures:
+  - {fileID: 11400000, guid: 83fb5b9fb38d930458c12f7a5f1cfbd0, type: 2}
