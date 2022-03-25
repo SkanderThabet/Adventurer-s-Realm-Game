@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0de997fdbe5624e933a49ac5c10fa8, type: 3}
+  m_Name: Modernhouse
+  m_EditorClassIdentifier: 
+  income: 20
+  buildingName: Modernhouse
+  buildingImage: {fileID: 21300000, guid: ddd0ed336e8694548b17f21fbefba43b, type: 3}
+  prefab: {fileID: 7089446466725765581, guid: d503d6233ae52864c86c6a3407cce9b2, type: 3}
+  placementCost: 100
+  requiredWoodAmount: 2
+  requiredSteelAmount: 2
+  upkeepCost: 0
+  requireRoadAccess: 1
+  requirePower: 1
+  requireWater: 1
+  requireSilo: 0
+  requireHealthcare: 1
+  requireLawEnforcement: 1
+  requireFireProtection: 1
+  requirePostalService: 1
+  requireBankService: 1
+  requireGarbageService: 1
+  requireEducationSerivce: 1
+  upgradable: 1
+  fullyUpgraded: 0
+  upgradeLevelPrefabs:
+  - {fileID: 7950705192795131184, guid: 8a24f8d6a40bd0749a168a3f03e5357b, type: 3}
+  - {fileID: 363929550386254456, guid: b73534c171f24814a8f1ee80bcd649c9, type: 3}
+  upgradePlacementCost: c80000002c010000
+  upgradeIncome: 280000003c000000
+  upgradeRequiredWoodAmount: 0300000004000000
+  upgradeRequiredSteelAmount: 0300000004000000
+  upgradeLevel: 0
+  structureRange: 1
+  maxFacilitySearchRange: 5
+  residentsAmount: 2
+  prefabVariants:
+  - {fileID: 7089446466725765581, guid: d503d6233ae52864c86c6a3407cce9b2, type: 3}
+  - {fileID: 7089446466725765581, guid: d503d6233ae52864c86c6a3407cce9b2, type: 3}
+  - {fileID: 7089446466725765581, guid: d503d6233ae52864c86c6a3407cce9b2, type: 3}
+  upgradedResidentsAmount: 0400000006000000
+  zoneType: 0

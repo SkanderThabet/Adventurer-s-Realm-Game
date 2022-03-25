@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0de997fdbe5624e933a49ac5c10fa8, type: 3}
+  m_Name: Gray Office
+  m_EditorClassIdentifier: 
+  income: 100
+  buildingName: Gray Office
+  buildingImage: {fileID: 21300000, guid: cae20c585bdacbb4bb698ae7f3610975, type: 3}
+  prefab: {fileID: 1748978854982552965, guid: 085f02287b1283e4cb7010037e2aa7ed, type: 3}
+  placementCost: 550
+  requiredWoodAmount: 2
+  requiredSteelAmount: 2
+  upkeepCost: 0
+  requireRoadAccess: 1
+  requirePower: 1
+  requireWater: 1
+  requireSilo: 0
+  requireHealthcare: 1
+  requireLawEnforcement: 1
+  requireFireProtection: 1
+  requirePostalService: 1
+  requireBankService: 1
+  requireGarbageService: 0
+  requireEducationSerivce: 0
+  upgradable: 1
+  fullyUpgraded: 0
+  upgradeLevelPrefabs:
+  - {fileID: 1748978854982552965, guid: ece1ac65b3716d84c9dc6a5357c680c1, type: 3}
+  - {fileID: 1748978854982552965, guid: 631fdfa907f3e9449a9c9a7e8f836435, type: 3}
+  upgradePlacementCost: 58020000bc020000
+  upgradeIncome: 96000000c8000000
+  upgradeRequiredWoodAmount: 0400000008000000
+  upgradeRequiredSteelAmount: 0400000008000000
+  upgradeLevel: 0
+  structureRange: 1
+  maxFacilitySearchRange: 5
+  residentsAmount: 0
+  prefabVariants: []
+  upgradedResidentsAmount: 
+  zoneType: 2

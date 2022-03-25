@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0de997fdbe5624e933a49ac5c10fa8, type: 3}
+  m_Name: Farm Barn
+  m_EditorClassIdentifier: 
+  income: 20
+  buildingName: Farm Barn
+  buildingImage: {fileID: 21300000, guid: cca7f1a3616d163459c800ada12afdac, type: 3}
+  prefab: {fileID: 7468051901424741856, guid: 1a1641d19afd6af4f9e6ea08325f104d, type: 3}
+  placementCost: 150
+  requiredWoodAmount: 3
+  requiredSteelAmount: 2
+  upkeepCost: 0
+  requireRoadAccess: 1
+  requirePower: 1
+  requireWater: 1
+  requireSilo: 0
+  requireHealthcare: 0
+  requireLawEnforcement: 0
+  requireFireProtection: 1
+  requirePostalService: 0
+  requireBankService: 0
+  requireGarbageService: 0
+  requireEducationSerivce: 0
+  upgradable: 1
+  fullyUpgraded: 0
+  upgradeLevelPrefabs:
+  - {fileID: 7468051901424741856, guid: 02ae0514cb522da4783a993b743e2bdd, type: 3}
+  - {fileID: 9106711246412282113, guid: bd6d58c52f488b84db33162f40cbc26b, type: 3}
+  upgradePlacementCost: c8000000fa000000
+  upgradeIncome: 280000003c000000
+  upgradeRequiredWoodAmount: 04000000
+  upgradeRequiredSteelAmount: 03000000
+  upgradeLevel: 0
+  structureRange: 1
+  maxFacilitySearchRange: 5
+  residentsAmount: 0
+  prefabVariants: []
+  upgradedResidentsAmount: 
+  zoneType: 1
