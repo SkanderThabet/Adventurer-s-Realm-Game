@@ -19,6 +19,12 @@ export const networkCollections = {
       name: "Test",
       addrs: "0xBecC0FC9E363fFf05F0ADdF3bff032C9e29A42d2",
     },
+    {
+      image:
+        "https://ipfs.io/ipfs/Qmd8MWuBW2yDpyDbqXBbb7soeCrgjQJikM7u6aSiG7q9qM",
+      name: "Sword",
+      addrs: "0x79a5C6832305B7B93D7C3e769c3E5997fC8E8c11",
+    },
   ],
 
   "0x1": [
