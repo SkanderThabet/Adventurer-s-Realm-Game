@@ -65,7 +65,7 @@ export const networkConfigs = {
     chainName: "Mumbai",
     currencyName: "MATIC",
     currencySymbol: "MATIC",
-    rpcUrl: "https://rpc-mumbai.matic.today/",
+    rpcUrl: "https://matic-mumbai.chainstacklabs.com",
     blockExplorerUrl: "https://mumbai.polygonscan.com/",
   },
 };

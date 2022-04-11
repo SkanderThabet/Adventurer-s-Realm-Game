@@ -9,6 +9,10 @@ import {
 } from "react-router-dom";
 import Account from "components/Account";
 import Chains from "components/Chains";
+import ERC20Transfers from "components/ERC20Transfers";
+import Wallet from "components/Wallet";
+import ERC20Balance from "components/ERC20Balance";
+
 import NFTBalance from "components/NFTBalance";
 import NFTTokenIds from "components/NFTTokenIds";
 import { Menu, Layout } from "antd";
@@ -77,16 +81,25 @@ const App = ({ isServerInfo }) => {
               marginLeft: "50px",
               width: "100%",
             }}
-            defaultSelectedKeys={["nftMarket"]}
+            defaultSelectedKeys={["/gamify"]}
           >
             <Menu.Item key="nftMarket" onClick={() => setInputValue("explore")}>
               <NavLink to="/NFTMarketPlace">🛒 Explore Market</NavLink>
+            </Menu.Item>
+            <Menu.Item key="/erc20balance">
+              <NavLink to="/erc20balance">💰 Balances</NavLink>
+            </Menu.Item>
+            <Menu.Item key="/wallet">
+              <NavLink to="/wallet">👛 Wallet</NavLink>
             </Menu.Item>
             <Menu.Item key="nft">
               <NavLink to="/nftBalance">🖼 Your Collection</NavLink>
             </Menu.Item>
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">📑 Your Transactions</NavLink>
+            </Menu.Item>
+            <Menu.Item key="/erc20transfers">
+              <NavLink to="/erc20transfers">💸 Transfers</NavLink>
             </Menu.Item>
           </Menu>
           <div style={styles.headerRight}>
@@ -97,8 +110,17 @@ const App = ({ isServerInfo }) => {
         </Header>
         <div style={styles.content}>
           <Switch>
+            <Route path="/wallet">
+              <Wallet />
+            </Route>
             <Route path="/nftBalance">
               <NFTBalance />
+            </Route>
+            <Route path="/erc20balance">
+              <ERC20Balance />
+            </Route>
+            <Route path="/erc20transfers">
+              <ERC20Transfers />
             </Route>
             <Route path="/NFTMarketPlace">
               <NFTTokenIds
